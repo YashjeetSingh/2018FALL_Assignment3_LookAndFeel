@@ -1,0 +1,94 @@
+﻿body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.bg {
+  background-image: url("../IMG/4.jpg");
+  position: relative;
+  opacity: 1.0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+ }
+
+.caption {
+  font-size: 300%;
+  position: relative;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.about {
+  font-size: 200%;
+  position: relative;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+/* Three columns side by side */
+.column {
+    background-color: DarkGray  ;
+float: left;
+    width: 30.0%;
+     margin-right: 1px;
+	 margin-left: 27px;
+	 color: navy;
+	 margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 DarkSeaGreen ;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: navy;
+
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: red;
+    background-color: SteelBlue ;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: black;
+}
+.creators {
+   position: relative;
+    bottom: 1px;
+    right: 1px;
+    opacity: 0.3;
+    color: black;
+    padding-left: 1px;
+    padding-right: 0px;
+}
+
+body {background-color: teal;}
